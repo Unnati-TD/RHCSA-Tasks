@@ -1,0 +1,118 @@
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
+systemd-resolve:x:193:193:systemd Resolver:/:/sbin/nologin
+tss:x:59:59:Account used for TPM access:/dev/null:/sbin/nologin
+polkitd:x:998:996:User for polkitd:/:/sbin/nologin
+unbound:x:997:995:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+geoclue:x:996:994:User for geoclue:/var/lib/geoclue:/sbin/nologin
+rtkit:x:172:172:RealtimeKit:/proc:/sbin/nologin
+pipewire:x:995:991:PipeWire System Daemon:/var/run/pipewire:/sbin/nologin
+pulse:x:171:171:PulseAudio System Daemon:/var/run/pulse:/sbin/nologin
+qemu:x:107:107:qemu user:/:/sbin/nologin
+usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
+gluster:x:994:988:GlusterFS daemons:/run/gluster:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+avahi:x:70:70:Avahi mDNS/DNS-SD Stack:/var/run/avahi-daemon:/sbin/nologin
+chrony:x:993:987::/var/lib/chrony:/sbin/nologin
+saslauth:x:992:76:Saslauthd user:/run/saslauthd:/sbin/nologin
+libstoragemgmt:x:991:985:daemon account for libstoragemgmt:/var/run/lsm:/sbin/nologin
+dnsmasq:x:984:984:Dnsmasq DHCP and DNS server:/var/lib/dnsmasq:/sbin/nologin
+sssd:x:983:983:User for sssd:/:/sbin/nologin
+cockpit-ws:x:982:982:User for cockpit web service:/nonexisting:/sbin/nologin
+cockpit-wsinstance:x:981:981:User for cockpit-ws instances:/nonexisting:/sbin/nologin
+colord:x:980:980:User for colord:/var/lib/colord:/sbin/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/sbin/nologin
+setroubleshoot:x:979:979::/var/lib/setroubleshoot:/sbin/nologin
+flatpak:x:978:978:User for flatpak system helper:/:/sbin/nologin
+clevis:x:977:977:Clevis Decryption Framework unprivileged user:/var/cache/clevis:/sbin/nologin
+gdm:x:42:42::/var/lib/gdm:/sbin/nologin
+gnome-initial-setup:x:976:975::/run/gnome-initial-setup/:/sbin/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+tcpdump:x:72:72::/:/sbin/nologin
+kaivalya:x:1000:1000:kaivalya:/home/kaivalya:/bin/bash
+k1:x:1002:1002::/home/k1:/bin/bash
+k2:x:1003:1003::/home/k2:/bin/bash
+apache:x:48:48:Apache:/usr/share/httpd:/sbin/nologin
+Overflow:x:1004:1004::/home/Overflow:/bin/bash
+message:x:1005:1005::/home/message:/bin/bash
+Core:x:1006:1006::/home/Core:/bin/bash
+used:x:1007:1007::/home/used:/bin/bash
+for:x:1008:1008::/home/for:/bin/bash
+TPM:x:1009:1009::/home/TPM:/bin/bash
+DNS:x:1010:1010::/home/DNS:/bin/bash
+System:x:1011:1011::/home/System:/bin/bash
+account:x:1012:1012::/home/account:/bin/bash
+DHCP:x:1013:1013::/home/DHCP:/bin/bash
+and:x:1014:1014::/home/and:/bin/bash
+cockpit:x:1015:1015::/home/cockpit:/bin/bash
+web:x:1016:1016::/home/web:/bin/bash
+Service:x:1017:1017::/home/Service:/bin/bash
+system:x:1018:1018::/home/system:/bin/bash
+Decryption:x:1019:1019::/home/Decryption:/bin/bash
+Framework:x:1020:1020::/home/Framework:/bin/bash
+unprivileged:x:1021:1021::/home/unprivileged:/bin/bash
+mydev1:x:1022:1022::/home/mydev1:/bin/bash
+mydev2:x:1023:1023::/home/mydev2:/bin/bash
+dilip:x:1025:1025::/home/dilip:/bin/bash
+shamu:x:1028:1028::/home/shamu:/bin/bash
+ramu:x:1029:1028::/home/ramu:/bin/bash
+ramu1:x:1030:1030::/home/ramu1:/bin/bash
+shamu2:x:1031:1031::/home/shamu2:/bin/bash
+kkp:x:1032:1032::/home/kkp:/bin/bash
+kkp5:x:1033:1034::/home/kkp5:/bin/bash
+prajaval:x:1034:1035::/home/prajaval:/bin/bash
+redhat:x:1035:1036::/home/redhat:/bin/bash
+redhat1:x:1036:1036::/home/redhat1:/bin/bash
+rina:x:1037:1037::/home/rina:/bin/bash
+roma:x:1038:1038::/home/roma:/bin/bash
+alpha:x:1039:1039::/home/alpha:/bin/bash
+beta:x:1040:1040::/home/beta:/bin/bash
+gama:x:1041:1041::/home/gama:/bin/bash
+theta:x:1042:1042::/home/theta:/bin/bash
+delta:x:1043:1043::/home/delta:/bin/bash
+unnati1:x:1044:1045::/home/unnati1:/bin/bash
+unnati2:x:1045:1046::/home/unnati2:/bin/bash
+unnati3:x:1046:1047::/home/unnati3:/bin/bash
+rin:x:1047:1048::/home/rin:/bin/bash
+rohit:x:1048:1049::/home/rohit:/bin/bash
+shubham:x:1049:1050::/home/shubham:/bin/bash
+umesh:x:1050:1051::/home/umesh:/bin/bash
+safalya:x:1051:1052::/home/safalya:/bin/bash
+kailash:x:1052:1053::/home/kailash:/bin/bash
+imo:x:1053:1054::/home/imo:/bin/bash
+pashya:x:1054:1055::/home/pashya:/bin/bash
+hulk:x:1055:1056::/home/hulk:/bin/bash
+swami:x:1056:1057::/home/swami:/bin/bash
+kai:x:1057:1058::/home/kai:/bin/bash
+myuser1:x:1058:1060::/home/myuser1:/bin/bash
+myuser2:x:1059:1061::/home/myuser2:/bin/bash
+amit55:x:1060:1062::/home/amit55:/bin/bash
+unnati:x:1061:1063::/home/unnati:/bin/bash
+dfi:x:1062:1064::/home/dfi:/bin/bash
+ankushsir:x:1063:1065::/home/ankushsir:/bin/bash
+jgjjg:x:1064:1066::/home/jgjjg:/bin/bash
+sanket:x:1066:1071::/home/sanket:/bin/bash
+rakesh:x:1067:1072::/home/rakesh:/bin/bash
+user2:x:1068:1075::/home/user2:/bin/bash
+user3:x:1069:1069::/home/user3:/bin/bash
+user4:x:1070:1073::/home/user4:/bin/bash
+user1:x:1071:1074::/home/user1:/bin/bash
+amit:x:1072:1076::/home/amit:/bin/bash
+sumit:x:1073:1077::/home/sumit:/bin/bash
+deep:x:1074:1078::/home/deep:/bin/bash
+sarah:x:1075:1079::/home/sarah:/bin/bash
+ram:x:1076:1083::/home/ram:/bin/bash
+sham:x:1077:1084::/home/sham:/bin/bash
